@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&family=Roboto:wght@400;500&display=swap");
+nav {
+  width: 70px;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.logo-navbar {
+  position: absolute;
+  top: 20px;
+  left: 14.5px;
+}
+
+.home-navbar,
+.category-navbar,
+.bookmark-navbar,
+.profile-navbar {
+  position: absolute;
+  left: 23px;
+}
+
+.home-navbar {
+  top: 120px;
+}
+
+.category-navbar {
+  top: 182px;
+}
+
+.bookmark-navbar {
+  top: 248px;
+}
+
+.profile-navbar {
+  top: 310px;
+}
+
+.search-bar {
+  position: fixed;
+  top: 0px;
+  left: 70px;
+  height: 56px;
+  width: 96.5vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.input-search {
+  margin: 10px 32px 10px 32px;
+  width: 261px;
+  height: 31.5px;
+  background-color: rgba(15, 18, 63, 0.05);
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  padding-left: 10px;
+  color: rgba(15, 18, 63, 0.5);
+}
+
+.account {
+  margin-right: 40px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: auto 10px 10px;
+  cursor: pointer;
+}
+
+.notification {
+  cursor: pointer;
+}
