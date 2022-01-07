@@ -1,3 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&family=Roboto:wght@400;500&display=swap");
+
 .body-dashboard {
+  font-family: "Roboto", sans-serif;
   background-color: #f6f6f6;
+}
+
+.isi {
+  position: absolute;
+  top: 56px;
+  left: 70px;
+}
+
+.title-dashboard {
+  font-weight: 700;
+  font-size: 24px;
+  color: #0f123f;
+  margin-top: 24px;
+  margin-left: 30px;
+}
+
+.summary,
+.chart {
+  width: 92vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.line-chart {
+  width: 68vw;
+  height: 35vh;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.doughnut {
+  width: 20vw;
+  height: 37vh;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.title-line-chart,
+.title-doughnut {
+  color: #0f123f;
+  margin-top: 16px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.doughnut-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.need-met {
+  background-color: #fff;
+  margin: 30px;
+  width: 92vw;
+  height: 29vh;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.pie-need-met {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.need-vs-meet {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid #e3e7ee;
+  height: auto;
+}
+
+.vl {
+  border-left: 1px solid #e3e7ee;
+  height: auto;
+}
+
+.title-need {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-weight: 500;
+  color: #0f123f;
+}
+
+.cover-summary {
+  margin: auto;
+}
+
+.opening-job,
+.work-average-year {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text-opening-job {
+  margin-left: 20px;
+}
+
+.angka-opening,
+.angka-work {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.text-job,
+.text-work {
+  font-weight: 400;
+  font-size: 13px;
+  color: #0f123f;
+}
+
+.summary-need-met {
+  margin: 70px 50px;
+}
+
+.opening-job {
+  margin-bottom: 30px;
 }

@@ -1,0 +1,33 @@
+.bungkus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.job-title {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.presentase {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.text-persen {
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+  left: 55px;
+  top: 55px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}

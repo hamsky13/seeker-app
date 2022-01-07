@@ -1,0 +1,235 @@
+{
+  "candidate": [
+    {
+      "id": 1,
+      "name": "candidate 1",
+      "university": "University A",
+      "status": "New",
+      "date": "2022-01-03"
+    },
+    {
+      "id": 2,
+      "name": "candidate 2",
+      "university": "University B",
+      "status": "On Progress",
+      "date": "2022-01-03"
+    },
+    {
+      "id": 3,
+      "name": "candidate 3",
+      "university": "University B",
+      "status": "On Progress",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 4,
+      "name": "candidate 4",
+      "university": "University B",
+      "status": "On Progress",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 5,
+      "name": "candidate 5",
+      "university": "University B",
+      "status": "Pending",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 6,
+      "name": "candidate 6",
+      "university": "University B",
+      "status": "Pending",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 7,
+      "name": "candidate 7",
+      "university": "University B",
+      "status": "New",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 8,
+      "name": "candidate 8",
+      "university": "University B",
+      "status": "Not Met",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 9,
+      "name": "candidate 9",
+      "university": "University B",
+      "status": "New",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 10,
+      "name": "candidate 10",
+      "university": "University B",
+      "status": "Completed",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 11,
+      "name": "candidate 11",
+      "university": "University C",
+      "status": "New",
+      "date": "2022-01-04"
+    },
+    {
+      "id": 12,
+      "name": "candidate 12",
+      "university": "University C",
+      "status": "On Progress",
+      "date": "2022-01-05"
+    },
+    {
+      "id": 13,
+      "name": "candidate 13",
+      "university": "University C",
+      "status": "On Progress",
+      "date": "2022-01-05"
+    },
+    {
+      "id": 14,
+      "name": "candidate 14",
+      "university": "University C",
+      "status": "On Progress",
+      "date": "2022-01-05"
+    },
+    {
+      "id": 15,
+      "name": "candidate 15",
+      "university": "University C",
+      "status": "Completed",
+      "date": "2022-01-05"
+    },
+    {
+      "id": 16,
+      "name": "candidate 16",
+      "university": "University C",
+      "status": "Not Met",
+      "date": "2022-01-05"
+    },
+    {
+      "id": 17,
+      "name": "candidate 17",
+      "university": "University C",
+      "status": "New",
+      "date": "2022-01-05"
+    },
+    {
+      "id": 18,
+      "name": "candidate 18",
+      "university": "University C",
+      "status": "New",
+      "date": "2022-01-06"
+    },
+    {
+      "id": 19,
+      "name": "candidate 19",
+      "university": "University C",
+      "status": "Not Met",
+      "date": "2022-01-06"
+    },
+    {
+      "id": 20,
+      "name": "candidate 20",
+      "university": "University C",
+      "status": "Pending",
+      "date": "2022-01-06"
+    },
+    {
+      "id": 21,
+      "name": "candidate 21",
+      "university": "University C",
+      "status": "Not Met",
+      "date": "2022-01-06"
+    },
+    {
+      "id": 22,
+      "name": "candidate 22",
+      "university": "University C",
+      "status": "Not Met",
+      "date": "2022-01-06"
+    },
+    {
+      "id": 23,
+      "name": "candidate 23",
+      "university": "University C",
+      "status": "Completed",
+      "date": "2022-01-07"
+    },
+    {
+      "id": 24,
+      "name": "candidate 24",
+      "university": "University C",
+      "status": "Completed",
+      "date": "2022-01-07"
+    },
+    {
+      "id": 25,
+      "name": "candidate 25",
+      "university": "University A",
+      "status": "Completed",
+      "date": "2022-01-07"
+    },
+    {
+      "id": 26,
+      "name": "candidate 26",
+      "university": "University B",
+      "status": "Pending",
+      "date": "2022-01-07"
+    },
+    {
+      "id": 27,
+      "name": "candidate 27",
+      "university": "University C",
+      "status": "New",
+      "date": "2022-01-07"
+    }
+  ],
+  "overview": [
+    {
+      "date": "2022-01-03",
+      "new": 1,
+      "onProgress": 1,
+      "pending": 0,
+      "notMet": 0,
+      "completed": 0
+    },
+    {
+      "date": "2022-01-04",
+      "new": 3,
+      "onProgress": 2,
+      "pending": 2,
+      "notMet": 1,
+      "completed": 1
+    },
+    {
+      "date": "2022-01-05",
+      "new": 1,
+      "onProgress": 3,
+      "pending": 0,
+      "notMet": 1,
+      "completed": 1
+    },
+    {
+      "date": "2022-01-06",
+      "new": 1,
+      "onProgress": 0,
+      "pending": 1,
+      "notMet": 3,
+      "completed": 0
+    },
+    {
+      "date": "2022-01-07",
+      "new": 1,
+      "onProgress": 0,
+      "pending": 1,
+      "notMet": 0,
+      "completed": 4
+    }
+  ]
+}
